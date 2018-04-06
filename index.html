@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>CareDash</title>
+  <link rel="stylesheet" href="font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+
+        <li><img src="imgs/logo.png" alt=""> </li>
+
+  
+<nav id="primary_nav_wrap">
+<ul>
+  <li class="current-menu-item"><a href="#">Home</a></li>
+  <li><a href="#">Menu 1</a>
+    <ul>
+      <li><a href="#">Sub Menu 1</a></li>
+      <li><a href="#">Sub Menu 2</a></li>
+      <li><a href="#">Sub Menu 3</a></li>
+      <li><a href="#">Sub Menu 4</a>
+        <ul>
+          <li><a href="#">Deep Menu 1</a>
+            <ul>
+              <li><a href="#">Sub Deep 1</a></li>
+              <li><a href="#">Sub Deep 2</a></li>
+              <li><a href="#">Sub Deep 3</a></li>
+                <li><a href="#">Sub Deep 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Deep Menu 2</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Sub Menu 5</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Menu 2</a>
+    <ul>
+      <li><a href="#">Sub Menu 1</a></li>
+      <li><a href="#">Sub Menu 2</a></li>
+      <li><a href="#">Sub Menu 3</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Menu 3</a>
+    <ul>
+      <li class="dir"><a href="#">Sub Menu 1</a></li>
+      <li class="dir"><a href="#">Sub Menu 2 THIS IS SO LONG IT MIGHT CAUSE AN ISSEUE BUT MAYBE NOT?</a>
+        <ul>
+          <li><a href="#">Category 1</a></li>
+          <li><a href="#">Category 2</a></li>
+          <li><a href="#">Category 3</a></li>
+          <li><a href="#">Category 4</a></li>
+          <li><a href="#">Category 5</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Sub Menu 3</a></li>
+      <li><a href="#">Sub Menu 4</a></li>
+      <li><a href="#">Sub Menu 5</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Menu 4</a></li>
+  <li><a href="#">Menu 5</a></li>
+  <li><a href="#">Menu 6</a></li>
+  <li><a href="#">Contact Us</a></li>
+</ul>
+</nav>
+  </header>
+  <div id="container">
+
+    <section id="main">
+      <img id="carousel" src="imgs/groupdoctor.png" alt="">
+    </section>
+    <section id="loginForm">
+      <h1>Sign up with CareDash to Edit your Provider Profile</h1>
+
+      <!--<% if (message.length > 0) { %>-->
+      <!--  <div class="alert alert-danger"><%= message %></div>
+        <% } %>-->
+
+      <!-- LOGIN FORM -->
+      <form action="/login" method="post">
+        <div class="form-group">
+          <!-- <label for="fName">First Name</label> -->
+          <input id="fName" type="text" class="form-control" placeholder="First Name" name="firstName">
+        </div>
+        <div class="form-group">
+          <!-- <label for="lName">Last Name</label> -->
+          <input id="lName" type="text" class="form-control" placeholder="Last Name" name="lastName">
+        </div>
+        <div class="form-group">
+          <!-- <label for="email">Email</label> -->
+          <input id="email" type="text" class="form-control" placeholder="Email" name="email">
+        </div>
+        <div class="form-group">
+          <!-- <label for="pw">Password</label> -->
+          <input id="pw" type="password" class="form-control" placeholder="Password" name="password">
+        </div>
+        <div class="form-group">
+          <!-- <label for="confirm-pw">Confirm Password</label> -->
+          <input id="confirm-pw" type="password" class="form-control" placeholder="Confirm Password" name="password">
+
+          <button type="submit" id="signupBtn" class="btn btn-warning btn-lg">Sign Up</button>
+          <button type="submit" id="loginBtn" class="btn btn-warning btn-lg">Login</button>
+      </form>
+      </div>
+
+
+      <p class="redir">Need an account? <a class="redirectLink" href="/signup">Sign up</a></p>
+      <p class="redir">Or go <a class="redirectLink" href="/">home</a>.</p>
+
+
+  </div>
+  </section>
+  <!-- <section></section>
+      <section></section>
+      <section></section> -->
+  <div class="">
+    <h2 id="reasons">Reasons to Sign Up as a Provider on CareDash</h2>
+  </div>
+  <section class="mid">
+    <img src="imgs/mind.png" alt="mind">
+    <h3>How Our Algorithm Works</h3>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ante sem, aliquet in diam a, porttitor venenatis tellus. Nullam condimentum justo ac felis tincidunt fringilla. Vivamus sapien enim, auctor quis lorem eu, iaculis finibus diam. Curabitur luctus odio nunc, at sagittis dolor sollicitudin et. </p>
+            <button class="more" type="button" name="button">Learn More</button>
+        </section>
+        <section class="mid">
+            <img src="imgs/stethoscope.png" alt="">
+            <h3>The Best Doctors in the US</h3>
+            <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ante sem, aliquet in diam a, porttitor venenatis tellus. Nullam condimentum justo ac felis tincidunt fringilla. Vivamus sapien enim, auctor quis lorem eu, iaculis finibus diam. Curabitur luctus odio nunc, at sagittis dolor sollicitudin et. </p>
+            <button class="more" type="button" name="button">Learn More</button>
+        </section>
+        <section class="mid">
+            <img src="imgs/heart-md.png" alt="">
+            <h3>How Our Care System Works</h3>
+            <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ante sem, aliquet in diam a, porttitor venenatis tellus. Nullam condimentum justo ac felis tincidunt fringilla. Vivamus sapien enim, auctor quis lorem eu, iaculis finibus diam. Curabitur luctus odio nunc, at sagittis dolor sollicitudin et. </p>
+            <button class="more"type="button" name="button">Learn More</button>
+        </section>
+      </div>
+      <footer>
+      <nav>
+        <ul class="bottomnav">
+          <li><a href="https://venturebeat.com/">CareDash</a>
+            <ul>
+              <li class="nestlink"><a href="#"></a>Home</li>
+              <li class="nestlink"><a href="#"></a>About</li>
+              <li class="nestlink"><a href="#"></a>Contact</li>
+              <li class="nestlink"><a href="#"></a>Write a Review</li>
+            </ul>
+          </li>
+          <li><a href "https://venturebeat.com/">Specialists</a>
+            <ul>
+              <li class="nestlink2"><a href="#"></a>Primary Care Physicians</li>
+              <li class="nestlink2"><a href="#"></a>Pediatricians</li>
+              <li class="nestlink2"><a href="#"></a>Optometrists</li>
+              <li class="nestlink2"><a href="#"></a>Dentists</li>
+            </ul>
+          </li>
+          <li><a href "https://venturebeat.com/">Follow Us</a>
+            <ul>
+              <li class="nestlink3"><a href="#"><img src="http://artandhistory.org/wp-content/uploads/2016/09/social-media-icons-facebook-grey-copy.png" alt="Facebook"></a></li>
+              <li class="nestlink3"><a href="#"><img src="http://minskipfarmshop.com/wp-content/uploads/2017/10/Instagram-grey.png" alt="Instagram"></a></li>
+              <li class="nestlink3"><a href="#"><img src="http://cavitytherm.ie/wp-content/themes/cavitytherm/images/youtube-logo.png" alt="YouTube"></a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <p>	&copy; Copyright 2017 CareDash</p>
+  </footer>
+    </div>
+
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+
+
+  </body>
+</html>
